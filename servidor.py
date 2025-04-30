@@ -42,5 +42,6 @@ def main():
         client_thread.daemon = True
         client_thread.start()
 
-if _name_ == "_main_":
+if __name__ == "__main__":
+
     main()

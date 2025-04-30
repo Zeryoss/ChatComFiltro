@@ -103,5 +103,5 @@ def main(nome_usuario):
     conectar_servidor(nome_usuario)
     janela_cliente.mainloop()
 
-if _name_ == "main":
+if __name__ == "__main__":
     pass # A main agora é chamada pelo login
